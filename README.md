@@ -2,6 +2,8 @@
 
 An app that communicates with a rover bot over the internet.
 
+The app is published and available on the Google Play Store : https://play.google.com/store/apps/details?id=fr.arfntz.pilot
+
 The rover bot is made with an "Arduino Uno Wifi" hardware circuit board.
 
 The embeded program, to be uploaded into the board, is located at the project root directory, the file name is "fe_dfrobot_http_2.ino".
