@@ -27,7 +27,7 @@ public class DrawThread extends Thread {
             try {
                 canvas = msurfaceHolder.lockCanvas(null);
                 synchronized (msurfaceHolder) {
-                    mcontrolView.onDraw(canvas);
+                    mcontrolView.draw(canvas);
                 }
             } finally {
                 if (canvas != null) {

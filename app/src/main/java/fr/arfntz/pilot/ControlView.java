@@ -57,8 +57,8 @@ public class ControlView extends SurfaceView implements SurfaceHolder.Callback {
         setFocusable(true);
     }
     @Override
-    public void onDraw(Canvas canvas) {
-        super.onDraw(canvas);
+    public void draw(Canvas canvas) {
+        super.draw(canvas);
         canvas.drawColor(backgroundColor);
         canvas.drawCircle(center.x,center.y,radius,paint);
         canvas.drawLine(center.x,center.y-radius,center.x,0,paint);
