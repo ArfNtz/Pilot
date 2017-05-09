@@ -2,7 +2,7 @@
 
 An app that communicates with a rover bot over the internet.
 
-The app is published and available on the Google Play Store : https://play.google.com/store/apps/details?id=fr.arfntz.pilot
+The app is published and available on the Google Play Store : https://play.google.com/store/apps/developer?id=ArfNtz
 
 The rover bot is made with an "Arduino Uno Wifi" hardware circuit board.
 
